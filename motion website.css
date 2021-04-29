@@ -39,7 +39,7 @@ top: 100px;
 
  h1{
     position: relative;
-    top: -70px;
+    top: -50px;
     left: -400px;
    font-size: 15rem;
    color: #fff;
@@ -47,7 +47,7 @@ top: 100px;
     } 
 p{
     position: relative;
-    top: -90px;
+    top: -85px;
     left: -400px;
    font-size: 2.5rem;
    color: grey;
@@ -157,7 +157,7 @@ header
 {
     position: fixed;
     top: 0;
-    left: 1300px;
+    left: 760px;
     width: 100%;
     padding: 40px 100px;
     z-index: 10000;
@@ -170,21 +170,18 @@ header
 header.nav 
 {
     position: relative;
+    
     display: flex;
     text-decoration: none;
 }
- ul
+a
 {
-    list-style-type: none;
-  
-}
- li a
-{
+   
 text-decoration: none;
-color: grey;
-font-weight: 300;
-font-size: 1.8rem;
+margin: 20px;
+color: white;
+font-weight: 250;
+font-size: 1.4rem;
 font-family:'poppins',serif ;
-
-
 }
+
