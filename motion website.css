@@ -148,7 +148,7 @@ input[type="submit"]:hover
 }
 .login
 {
-color: brown;
+color: grey;
 margin: 20px 0;
 font-family:'poppins',sans-serif ;
 
@@ -171,16 +171,20 @@ header.nav
 {
     position: relative;
     display: flex;
+    text-decoration: none;
 }
-header.nav li
+ ul
 {
-    list-style: none;
-   
+    list-style-type: none;
+  
 }
-header.nav li a
+ li a
 {
 text-decoration: none;
-color: #fff;
+color: grey;
 font-weight: 300;
+font-size: 1.8rem;
+font-family:'poppins',serif ;
+
 
 }
