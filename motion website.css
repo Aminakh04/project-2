@@ -4,17 +4,17 @@
 
     margin: 0;
 
-    padding: 0;
-
-    box-sizing: border-box;
+   
 
 }
 
-.bg-img
+body
 {
-    
+    margin: 0;
 
+    padding: 0;   
 
+    box-sizing: border-box;
 }
 p{
     font-weight: 300;
@@ -33,7 +33,7 @@ background-size: cover;
 .banner.cont{
 
 text-align: right;
-position: relative;
+position: absolute;
 top: 100px;
 } 
 
@@ -170,7 +170,7 @@ header
 header.nav 
 {
     
-    position: relative;
+    position: fixed;
     display: flex;
     text-decoration: none;
 }
@@ -315,6 +315,6 @@ h5
     width: 100%;
     height: 100%;
     object-fit: cover;
-    
+
 
 }
