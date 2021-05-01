@@ -318,23 +318,3 @@ h5
 
 }
 
-#slider
-{
-margin: 0 auto;
-width: 800px;
-max-width: 100%;
-text-align: center;
-}
-#slider input[type="radio"]
-{
-display: none;
-}
-#slider label
-{
-cursor: pointer;
-text-decoration: none;
-}
-#slides
-{
-
-}
