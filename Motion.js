@@ -2,8 +2,6 @@ function videoslider(links){
     document.querySelector(".slider").src = links;
 }
 
-
-
 const menuLinks = document.querySelector('.navbar__menu');
 const navLogo = document.querySelector('#navbar__logo');
 
