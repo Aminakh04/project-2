@@ -7,53 +7,70 @@
     <title>Motion Grephic WebSite</title>
     <link rel="stylesheet" href="motion website.css">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"
+  ></script>
 
 </head>
 <body>
 
-   <section class="banner" id="banner">
-       <div class="cont">
-           <h1>Motion Graphic</h1>
-           <p1><b>We always strive for the best
-            .</b></p1>
-       </div>
 
-   </section>
-<header>
-    <div class="nav">
-       <a href= "#home"><b>Home</b></a> 
-      <a href= "#about"><b>About</b></a>
-     <a href= "#services"><b>Services</b></a>
-       <a href= "#contact"><b>Contact</b></a>
-       <a href= "#login"><b>Login</b></a>
 
+
+  <!-- Navbar Section -->
+  <nav class="navbar">
+    <div class="navbar__container">
+      <a href="#home" id="navbar__logo">Motion Graphic</a>
+      <div class="navbar__toggle" id="mobile-menu">
+        <span class="bar"></span> <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="navbar__menu">
+        <li class="navbar__item">
+          <a href="#home" class="navbar__links" id="home-page">Home</a>
+        </li>
+        <li class="navbar__item">
+          <a href="#about" class="navbar__links" id="about-page">About</a>
+        </li>
+        <li class="navbar__item">
+          <a href="#services" class="navbar__links" id="services-page"
+            >Services</a
+          >
+        </li>
+        <li class="navbar__btn">
+          <a href="#sign-up" class="button" id="signup">Login</a>
+        </li>
+      </ul>
     </div>
-</header>
-<section id="about" class="abo">
-    <div class="container">
-        <h2 class="titre-abo">Hello, we are <span>Motion Graphic designers</span></h2>
-        <div class="about-content">
-       
-            <p>Lorem ipsum dolor sit amet consectetur,elit.  <br>Velit tempore, 
-                assumenda culpa voluptas rem facere delectus  <br>quasi aspernatur laborum  <br>deleniti? 
-                Ratione mollitia eaque nulla earum nobis  <br>consequuntur exercitationem nisi accusamus.</p>
-                <br>
-                <p>Lorem ipsum dolor sit amet consectetur, <br> elit. Velit tempore, 
-                    assumenda culpa voluptas rem <br>facere delectus quasi aspernatur laborum  <br>deleniti? 
-                    Ratione mollitia eaque nulla earum nobis  <br>consequuntur exercitationem nisi accusamus.</p>
-             </div>
-             <img class="imo" src="https://image.freepik.com/free-photo/web-design-concepts-with-blurred-background_1134-82.jpg" alt="web-design">
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="hero" id="home">
+    <div class="hero__container">
+      <h1 class="hero__heading">Motion <span>Graphic</span></h1>
+      <p class="hero__description">We always strive for the best</p>
     </div>
-</section>
+  </div>
 
+  <!-- About Section -->
+  <div class="main" id="about">
+    <div class="main__container">
+      <div class="main__img--container">
+        <div class="main__img--card"><i class="fas fa-layer-group"></i></div>
+      </div>
+      <div class="main__content">
+        <h1>What do we do?</h1>
+        <h2>We help businesses scale</h2>
+        <p>Schedule a call to learn more about our services</p>
+        <img class="imo" src="https://image.freepik.com/free-photo/web-design-concepts-with-blurred-background_1134-82.jpg" alt="web-design">
+      </div>
+    </div>
+  </div>
 
-         
-          
-</section>
-
-
-<div class="container">
-    
+  <!-- Services Section -->
+  <div class="services" id="services">
     <ul>
         <li onclick="videoslider('ved1')"><embed style="width: 500px; height: 250px " src="https://www.youtube.com/embed/90BaAE7Rnwk"></embed>
         <li onclick="videoslider('ved2')"><embed style="width: 500px; height: 250px " src="https://www.youtube.com/embed/-2Hm6iQT_Sw"></embed>
@@ -66,30 +83,68 @@
             <li onclick="videoslider('ved5')"><embed style="width: 500px; height: 250px " src="https://www.youtube.com/embed/PtFF-ZKpaK4"></embed>
                 <li onclick="videoslider('ved6')"><embed style="width: 500px; height: 250px " src="https://www.youtube.com/embed/2eCbj-RellA"></embed>
                 </ul>
-</div>
-<h3 class="Services">Our Services</h3>
 
-   <!--<div class="bg-img">
-        <div class="containt">
-            <header>Login Form</header>
-            <div class="fild ">
-                <span class='fa-user'></span>
-                <input type="text" placeholder="Email or Phone">
+ 
+ 
+    
+
+  
+  <div class="footer__container">
+    <div class="footer__links">
+      <div class="footer__link--wrapper">
+        <div class="footer__link--items">
+          <h2>About Us</h2>
+          <a href="/sign__up">How it works</a> <a href="/">Testimonials</a>
+          <a href="/">Careers</a> <a href="/">Terms of Service</a>
         </div>
-        <div class="fild space">
-            <span class='fa-lock'></span>
-            <input type="password" placeholder="password">
+        <div class="footer__link--items">
+          <h2>Contact Us</h2>
+          <a href="/">Contact</a> <a href="/">Support</a>
+          <a href="/">Destinations</a>
+        </div>
+      </div>
+      <div class="footer__link--wrapper">
+        <div class="footer__link--items">
+          <h2>Videos</h2>
+          <a href="/">Submit Video</a> <a href="/">Ambassadors</a>
+          <a href="/">Agency</a>
+        </div>
+        <div class="footer__link--items">
+          <h2>Social Media</h2>
+          <a href="/">Instagram</a> <a href="/">Facebook</a>
+          <a href="/">Youtube</a> <a href="/">Twitter</a>
+        </div>
+      </div>
     </div>
-    <div class="pass">
-        <a href="#">Forgot Password</a>
-    </div>
-    <div class="fild">
-        <span></span>
-        <input type="submit" value="LOGIN">
-    </div>
-        <div class="login">Creat New Compte</div>
-</div>
-    </div>-->
+    <section class="social__media">
+      <div class="social__media--wrap">
+        <div class="footer__logo">
+          <a href="/" id="footer__logo">Motion Graphic</a>
+        </div>
+        <p class="website__rights">© Motion 2021. All rights reserved</p>
+        <div class="social__icons">
+          <a href="/" class="social__icon--link" target="_blank"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a href="/" class="social__icon--link"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="/" class="social__icon--link"
+            ><i class="fab fa-youtube"></i
+          ></a>
+          <a href="/" class="social__icon--link"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="/" class="social__icon--link"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+ 
+   
    <script src="Motion.js"></script>
 
 </body>
